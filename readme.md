@@ -24,26 +24,6 @@ Predictions are made using the test dataset, and the results are visualized with
 - Python 3.x
 - Libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`
 
-## Project Structure
-
-USA_Housing_Price_Prediction/
-│
-├── data/
-│   └── USA_Housing.csv           # Dataset
-│
-├── notebooks/
-│   └── housing_price_analysis.ipynb  # Jupyter notebook for analysis and modeling
-│
-├── src/
-│   └── model.py                  # Python script for running the linear regression model
-│   └── visualize.py              # Python script for creating visualizations (pairplot, violin plot,displot)
-│
-├── README.md                     # Project description and instructions
-├── requirements.txt              # Required libraries for the project
-└── results/
-    └── visualizations/           # Folder to store generated plots (pairplot, violin plot, etc.)
-    └── model_output.csv          # Model predictions
-
 ## How to Run
 1. Clone the repository.
 2. Install the required libraries.
