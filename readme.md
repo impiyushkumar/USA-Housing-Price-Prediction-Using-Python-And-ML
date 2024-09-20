@@ -11,11 +11,11 @@ The project involves extensive data exploration and visualization using librarie
 
 ## Linear Regression Model
 The project implements a linear regression model to predict house prices. Key coefficients from the model include:
-- **Avg. Area Income**: 21.53
-- **Avg. Area House Age**: 164,883.28
-- **Avg. Area Number of Rooms**: 122,368.68
-- **Avg. Area Number of Bedrooms**: 2,233.80
-- **Area Population**: 15.15
+- **Avg. Area Income**
+- **Avg. Area House Age**
+- **Avg. Area Number of Rooms**
+- **Avg. Area Number of Bedrooms**
+- **Area Population**
 
 ### Model Evaluation
 Predictions are made using the test dataset, and the results are visualized with a scatter plot comparing actual vs. predicted prices.
