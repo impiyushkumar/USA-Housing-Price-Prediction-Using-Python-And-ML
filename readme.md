@@ -24,6 +24,7 @@ Predictions are made using the test dataset, and the results are visualized with
 - Python 3.x
 - Libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`
 
+## Project Structure
 
 USA_Housing_Price_Prediction/
 │
