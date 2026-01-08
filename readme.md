@@ -1,33 +1,69 @@
-# USA Housing Price Prediction Using Python And ML
+# 🏠 USA Housing Price Prediction Using Python & Machine Learning
 
-## Overview
-This project focuses on predicting housing prices in the USA based on various features using linear regression. The dataset used, `USA_Housing.csv`, contains information such as average area income, house age, number of rooms, number of bedrooms, and area population.
+## 🚀 Live Demo
+🔗 **Streamlit App**:  
+https://usa-housing-price-predictor.streamlit.app/
 
-## Data Exploration
-The project involves extensive data exploration and visualization using libraries like `seaborn` and `matplotlib`. Key visualizations include:
-- **Pairplot**: To visualize relationships between features.
-- **Violin Plot**: To show the distribution of house prices.
-- **Displot**: To understand the distribution of a specific feature.
+## 📸 App Preview
+![Streamlit App Preview](assets/streamlit_app.png)
 
-## Linear Regression Model
-The project implements a linear regression model to predict house prices. Key coefficients from the model include:
-- **Avg. Area Income**
-- **Avg. Area House Age**
-- **Avg. Area Number of Rooms**
-- **Avg. Area Number of Bedrooms**
-- **Area Population**
+## 📌 Overview
+This project predicts **house prices in the USA** using a **Linear Regression** machine learning model.  
+The model is trained on real housing data and deployed as an **interactive Streamlit web application**, where users can input housing features and instantly get a price prediction.
 
-### Model Evaluation
-Predictions are made using the test dataset, and the results are visualized with a scatter plot comparing actual vs. predicted prices.
 
-## Requirements
-- Python 3.x
-- Libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`
+## 🧠 Machine Learning Model
+- **Algorithm**: Linear Regression
+- **Library**: scikit-learn
+- **Model File**: `house_price_model.pkl`
+- **Training Environment**: Jupyter Notebook (local)
+- **Inference**: Streamlit web app
 
-## How to Run
-1. Clone the repository.
-2. Install the required libraries.
-3. Load the dataset and run the script to generate visualizations and predictions.
 
-## Conclusion
-This project demonstrates the use of data analysis and machine learning techniques to predict housing prices, providing valuable insights for stakeholders in the real estate market.
+## 📊 Dataset
+- **File**: `USA_Housing.csv`
+- **Records**: 5000
+- **Features Used**:
+  - Average Area Income
+  - Average House Age
+  - Average Number of Rooms
+  - Average Number of Bedrooms
+  - Area Population
+- **Target Variable**:
+  - House Price
+
+
+## 🖥️ Streamlit Web App Features
+- User-friendly UI
+- Real-time predictions
+- Numeric inputs & sliders
+- Clean layout for non-technical users
+
+### Inputs:
+- Average Area Income
+- Average House Age
+- Average Number of Rooms
+- Average Number of Bedrooms
+- Area Population
+
+### Output:
+- 💰 **Estimated House Price**
+
+## 🛠️ Tech Stack
+
+- **Programming Language**: Python  
+- **Data Analysis & Visualization**: NumPy, Pandas, Matplotlib, Seaborn  
+- **Machine Learning**: scikit-learn (Linear Regression)  
+- **Model Serialization**: joblib  
+- **Web Framework**: Streamlit  
+- **Deployment**: Streamlit Cloud  
+- **Version Control**: Git & GitHub  
+- **Development Tools**: Jupyter Notebook, VS Code  
+
+
+## ✅ Conclusion
+This project demonstrates a complete **end-to-end machine learning workflow**, from data analysis and model training to real-world deployment using **Streamlit**.  
+The linear regression model shows strong predictive performance for estimating house prices based on key socioeconomic and housing features.
+
+By converting the trained model into an interactive web application, the project highlights how machine learning solutions can be made accessible to non-technical users.  
+Overall, this project reflects practical skills in **Python, data analysis, machine learning, model deployment, and version control**, making it a solid real-world ML application.
